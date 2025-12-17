@@ -98,6 +98,20 @@ For more detailed information, please refer to our documentation:
 - [Docker tags and versioning](https://docs.pi-hole.net/docker/#docker-tags-and-versioning)
 - [Upgrading, Persistence, and Customizations](https://docs.pi-hole.net/docker/upgrading/)
 
+## Docker tags and versioning
+
+The primary docker tags are explained in the following table.  [Click here to see the full list of tags](https://hub.docker.com/r/pihole/pihole/tags). See [GitHub Release notes](https://github.com/pi-hole/docker-pi-hole/releases) to see the specific version of Pi-hole Core, Web, and FTL included in the release.
+
+The Date-based (including incremented "Patch" versions) do not relate to any kind of semantic version number, rather a date is used to differentiate between the new version and the old version, nothing more.
+
+Release notes will always contain full details of changes in the container, including changes to core Pi-hole components.
+
+| tag | description |
+| :--- | :--- |
+| `latest` | Always the latest release |
+| `2022.04.0` | Date-based release |
+| `nightly` | Built and pushed whenever there are changes on the `development` branch and additionally produced by the scheduled nightly job. These are the most experimental development images and may change frequently |
+
 ## User Feedback
 
 Please report issues on the [GitHub project](https://github.com/pi-hole/docker-pi-hole) when you suspect something docker related.  Pi-hole or general docker questions are best answered on our [user forums](https://discourse.pi-hole.net/c/bugs-problems-issues/docker/30)
